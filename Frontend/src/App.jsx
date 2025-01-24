@@ -1,14 +1,14 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Navbar from './Navbar.jsx';
-import Home from './Home.jsx';
-import LogIn from './LogInPage.jsx'
-import SignIn from './SignUpPage.jsx'
-import UserHomePage from './UserHomePage.jsx';
-import Map from './Map.jsx';
-import ServiceBooking from './ServiceBooking.jsx';
-import PartnerRegistrationPage from './partnerRegisteration.jsx';
-import FetchPartnerLocation from './FetchPartnerLocation.jsx';
+import Navbar from './components/Navbar.jsx';
+import Home from './components/Home.jsx';
+import LogIn from './components/LogInPage.jsx'
+import SignIn from './components/SignUpPage.jsx'
+import UserHomePage from './components/UserHomePage.jsx';
+import Map from './components/Map.jsx';
+import ServiceBooking from './components/ServiceBooking.jsx';
+import PartnerRegistrationPage from './components/PartnerRegisteration.jsx';
+import FetchPartnerLocation from './components/FetchPartnerLocation.jsx';
 
 
 
