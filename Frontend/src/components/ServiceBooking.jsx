@@ -31,7 +31,7 @@ function ServiceBooking() {
 
     async function fetchNearestService(latitude, longitude){
 
-        const response = await fetch('http://localhost:8000/nearest-service-centre', {
+        const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/nearest-service-centre`, {
             method: 'POST',
             headers: {
                 'Content-Type' : 'application/json'
