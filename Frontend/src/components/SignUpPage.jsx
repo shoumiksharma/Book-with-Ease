@@ -47,7 +47,7 @@ function SignUpPage(){
                 <input type="password" required name="" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} className="w-[80%] text-[3vw] mb-[2vh] rounded-lg pl-[2%]"/>
                 <button type='submit' className="bg-purple-400 w-[40%] h-[20%] rounded-3xl text-[3vw]">Sign In</button>
             </form>
-            <div className="text-[1.5vw]">Already have an Account ? <Link to='/login'>Log In</Link> instead</div>
+            <div className="text-[1.5vw]">Already have an Account ? <Link to='/login' className='text-blue-700'>Log In</Link> instead</div>
         </div>
         </>
     )

@@ -40,7 +40,7 @@ function LogIn(){
                 <input type="password" name="" required value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" className="w-[80%] text-[3vw] mb-[2vh] rounded-lg pl-[2%]"/>
                 <button type='submit' className="bg-purple-400 w-[40%] h-[20%] rounded-3xl text-[3vw]">Log In</button>
             </form>
-            <div className="text-[1.5vw]">Do not have an Account ? <Link to='/signin'>Sign Up</Link> instead</div>
+            <div className="text-[1.5vw]">Do not have an Account ? <Link to='/signin' className='text-blue-700'>Sign Up</Link> instead</div>
         </div>
         </>
     )
