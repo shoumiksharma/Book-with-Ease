@@ -45,7 +45,7 @@ function UserHomePage(){
 
     return (
         <>
-        <div className="bg-[url('background.svg')] bg-center border-2 border-black font-Grandstander">
+        <div className="bg-[url('/background.svg')] bg-center border-2 border-black font-Grandstander">
             <Navbar />
             <div className="welcome text-[3vw] mt-[3vh] pl-[3vw]">Welcome {username} ,</div>
             <div className="text-center max-w-full font-Grandstander text-[4vw] mt-[7vh] flex flex-col justify-center items-center">
@@ -54,7 +54,7 @@ function UserHomePage(){
                 </div>
             </div>
             <div className="flex justify-between mt-[7vh]">
-                <div className="w-[70vw] bg-[url('Ellipse.svg')] bg-no-repeat bg-contain bg-center text-center flex flex-col items-center justify-center text-white text-[2.2vw] font-Grandstander">
+                <div className="w-[70vw] bg-[url('/Ellipse.svg')] bg-no-repeat bg-contain bg-center text-center flex flex-col items-center justify-center text-white text-[2.2vw] font-Grandstander">
                     <div className='w-[70%]'>
                         Whether you're on the road or at home, our app helps you locate the closest mechanic to get your car or bike back in shape—fast and hassle-free !
                     </div>
