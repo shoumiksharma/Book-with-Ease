@@ -11,7 +11,7 @@ function SignUpPage(){
     async function handleSubmit(e){
 
         e.preventDefault();
-        const response = await fetch("http://localhost:8000/signin" , {
+        const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/signin` , {
             method: 'POST',
             headers: {
                 'Content-Type' : 'application/json'

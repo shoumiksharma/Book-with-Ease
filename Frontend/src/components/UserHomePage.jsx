@@ -20,7 +20,7 @@ function UserHomePage(){
         
         try{
 
-            const response = await fetch("http://localhost:8000/fetch" ,{
+            const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/fetch` ,{
                 method : 'GET',
                 headers: {
                     'Content-Type' : 'application/json'
