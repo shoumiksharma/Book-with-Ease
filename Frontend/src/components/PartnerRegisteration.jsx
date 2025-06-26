@@ -24,7 +24,7 @@ const PartnerRegistrationPage = () => {
         <>
 
         <Navbar />
-        <div className="bg-[url('background.svg')] bg-center border-2 border-black font-Grandstander h-auto flex flex-col items-center justify-center">
+        <div className="bg-[url('/background.svg')] bg-center border-2 border-black font-Grandstander h-auto flex flex-col items-center justify-center">
 
             <div className="text-[4vw] my-[5vh]">Partner Registeration</div>
 

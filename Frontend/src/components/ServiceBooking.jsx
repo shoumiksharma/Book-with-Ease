@@ -84,7 +84,7 @@ function ServiceBooking() {
 
     return(
         <>
-        <div className="bg-[url('background.svg')] bg-center border-2 border-black font-Grandstander h-auto min-h-screen">
+        <div className="bg-[url('/background.svg')] bg-center border-2 border-black font-Grandstander h-auto min-h-screen">
 
             <Navbar />
 

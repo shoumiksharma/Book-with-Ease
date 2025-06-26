@@ -33,7 +33,7 @@ function LogIn(){
         return (
         <>
         <Navbar />
-        <div className="bg-[url('background.svg')] bg-center h-screen w-full border-2 border-black font-Grandstander flex flex-col justify-center items-center">
+        <div className="bg-[url('/background.svg')] bg-center h-screen w-full border-2 border-black font-Grandstander flex flex-col justify-center items-center">
             <div className="text-[4vw] mb-[5vh]">User Log In</div>
             <form action="" onSubmit={handleSubmit} className="flex flex-col justify-center items-center bg-purple-800 h-[40vh] w-[40vw] backdrop-blur-sm bg-opacity-15 rounded-3xl mb-[2vh]">
                 <input type="email" name="" required value={username} onChange={(e) => setUsername(e.target.value)} placeholder="Email/Username" className="w-[80%] text-[3vw] mb-[2vh] rounded-lg pl-[2%]"/>
